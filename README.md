@@ -5,10 +5,10 @@ The main goal is to create an expense management app .
 
 ### BACK-END  Technologies
 
---NODE JS 
---Express  :4.17.1
---Postgresql
---JWT
+- NODE JS 
+- Express  :4.17.1
+- Postgresql
+- JWT
 
 ### Set port
 .env
