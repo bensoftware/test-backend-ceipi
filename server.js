@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-  origin: '*'
+  origin: "http://localhost:8081"
 };
 
 
@@ -51,7 +51,7 @@ function initial() {
 
   Role.create({
     id: 2,
-    name: "manager"
+    name: "moderator"
   });
  
   Role.create({
