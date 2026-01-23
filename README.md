@@ -11,7 +11,14 @@ A Node.js backend application demonstrating JWT authentication with refresh toke
 - PostgreSQL database integration with Sequelize ORM
 - CORS enabled for cross-origin requests
 
+<<<<<<< HEAD
 ## Tech Stack
+=======
+- NODE JS 
+- Express  :4.17.1
+- Postgresql
+- JWT
+>>>>>>> 55d20e110c27e5d562172af2c3a2807e9d408885
 
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework
