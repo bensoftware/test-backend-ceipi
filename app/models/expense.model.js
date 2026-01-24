@@ -2,10 +2,6 @@ const { types } = require("pg");
 
 module.exports = (sequelize, Sequelize) => {
   const Expense = sequelize.define("expense", {
-    id: {
-      type: Sequelize.INTEGER,
-      primaryKey: true
-    },
     category: {
       type: Sequelize.STRING
     },

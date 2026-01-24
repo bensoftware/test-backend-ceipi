@@ -1,4 +1,3 @@
-
 const { verifySignUp } = require("../middleware");
 const expense = require("../controllers/expense.controller");
 
@@ -11,6 +10,18 @@ module.exports = function(app) {
     next();
   });
 
-  app.post("/api/create",expense.create);
+  // Create a new expense
+  app.post("/api/expenses/create", expense.create);
 
+  // Retrieve all expenses
+  app.get("/api/expenses/all", expense.findAll);
+
+  // Retrieve a single expense with id
+  app.get("/api/expenses/:id", expense.findOne);
+
+  // Update an expense with id
+  app.put("/api/expenses/:id", expense.update);
+
+  // Delete an expense with id
+  app.delete("/api/expenses/:id", expense.delete);
 };

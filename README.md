@@ -140,9 +140,4 @@ curl -X POST http://localhost:8080/api/auth/signup \
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Based on tutorials from [BezKoder](https://www.bezkoder.com/)
-- Express.js documentation
-- Sequelize documentation
 
